@@ -1,7 +1,7 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 date_default_timezone_set("Asia/Kolkata");
-$telegram_token="1777144788:AAEv-bSSPfEwFgQP9EAHGgcR0FWiis_UYHM";
+$telegram_token=""; # your telegram bot token
 // echo 1;exit;
 function dateFormat($date){
     $months = json_decode('{"01":"Jan","02":"Feb","03":"March","04":"Apr","05":"May","06":"Jun","07":"Jul","08":"Aug","09":"Sep","10":"Oct","11":"Nov","12":"Dec"}',true);
